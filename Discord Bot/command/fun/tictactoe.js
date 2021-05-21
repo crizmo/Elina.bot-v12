@@ -1,3 +1,5 @@
+#install ttt npm package
+
 module.exports = {
     name: 'tictactoe',
     aliases: ['ttt'],
