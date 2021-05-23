@@ -20,6 +20,8 @@ module.exports = {
         .setImage('https://media1.tenor.com/images/155d024b04fe25f967eeef21adc5e4f0/tenor.gif')
         .setFooter('Arigato, Hope you all have a wonderful day')
         .setTimestamp()
+        
+#you can edit this part its basically a small intro of the bot
 
         const moderation = new Discord.MessageEmbed()
         .setTitle('Moderation 🎒')
