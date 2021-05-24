@@ -16,5 +16,6 @@ module.exports = {
         .setFooter('Lol get rekt science');
 
         message.channel.send(newEmbed);
+        message.delete() #deletes the trigger
     }
 }
