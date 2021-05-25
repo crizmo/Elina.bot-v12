@@ -1,3 +1,5 @@
+#first npm i snakecord
+
 const SnakeGame = require('snakecord');
 
 const snakeGame = new SnakeGame({
