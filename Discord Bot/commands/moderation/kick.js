@@ -1,13 +1,13 @@
 module.exports = {
-    name: 'ban',
+    name: 'kick',
     permissions: ["ADMINISTRATOR"],
-    description: "description of ban command!",
-    execute(client, message, args){
+    description: "description of kick command!",
+    execute(client, message, args, Discord){
         const member = message.mentions.users.first();
         if(member){
             const memberTarget = message.guild.members.cache.get(member.id);
-            memberTarget.ban();
-            message.channel.send("User has been banned");
+            memberTarget.kick();
+            message.channel.send("User has been kicked");
         }else{
             message.channel.send('Please mention a user who you want to ban');
         }
