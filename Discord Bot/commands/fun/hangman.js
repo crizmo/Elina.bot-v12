@@ -1,4 +1,5 @@
-  
+First npm i reconlx
+
 const { hangman } = require('reconlx')
 
 module.exports = {
