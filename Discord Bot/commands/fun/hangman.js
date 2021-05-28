@@ -4,7 +4,7 @@ const { hangman } = require('reconlx')
 
 module.exports = {
     name : 'hangman',
-    permissions: ["SEND_MESSAGES"],
+    permissions: ["SEND_MESSAGES"], //dont add this if you dont have permissions added
     description: 'hangman command',
     execute (client, message, args, Discord) {
         if(!message.member.hasPermission("SEND_MESSAGES")) return message.channel.send('You need manage messages permission.')
@@ -21,6 +21,6 @@ module.exports = {
         })
 
         hang.start();
-        message.delete()
+        message.delete() //deletes the trigger to keep the word safe
     }
 }
