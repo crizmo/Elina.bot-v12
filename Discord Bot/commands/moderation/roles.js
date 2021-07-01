@@ -17,4 +17,4 @@ module.exports = {
         .setFooter(user.user.tag, user.user.displayAvatarURL({ dynamic: true}))
         message.channel.send(embed)
     }
-}
+)
