@@ -1,3 +1,5 @@
+From elina bot
+
 # Discord-bot.Js
 Simple discord bot commands using java script 
 
