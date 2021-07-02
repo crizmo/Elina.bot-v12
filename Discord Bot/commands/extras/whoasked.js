@@ -1,5 +1,6 @@
 module.exports = {
     name: "whoasked",
+    cooldown: 1 ,
     permissions: ["SEND_MESSAGES"],
     description: "test command",
 
