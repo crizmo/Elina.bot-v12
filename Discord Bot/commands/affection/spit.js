@@ -8,8 +8,7 @@ module.exports = {
     aliases: [],
 
     execute(client, message, args, Discord) {
-        spitLinks = [ 'https://media.tenor.com/images/607dac78c58fe20d15db3e8ab303ac70/tenor.gif',
-                    'https://media.tenor.com/images/607dac78c58fe20d15db3e8ab303ac70/tenor.gif' ]
+        spitLinks = [ 'https://media.tenor.com/images/417b595f68cd87b5574b5cbf4cc8ce49/tenor.gif' ]
 
         const randomNum = Math.floor(Math.random() * Math.floor(spitLinks.length))
         let member = message.mentions.members.first();
