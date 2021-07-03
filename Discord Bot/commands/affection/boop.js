@@ -1,6 +1,7 @@
 module.exports = {
     name: "boop",
     permissions: ["SEND_MESSAGES"],
+    cooldown: 2 , 
     description: "send yourself or another user a boop",
     usage: `=boop (@user)`,
     permissions: ["SEND_MESSAGES"],
