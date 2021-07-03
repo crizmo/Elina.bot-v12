@@ -19,7 +19,7 @@ module.exports = {
     
     const info = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("Drunkbetch", "https://images-ext-1.discordapp.net/external/c5CBhORoCrjcKjUviyBSUYjatGWz7iiNPnl_HjNDg0E/%3Fsize%3D128/https/cdn.discordapp.com/icons/782646778347388959/a_1dc3d36a0f29ae80c960dc568588c835.gif")
+    .setAuthor("Elina", "https://cdn.discordapp.com/avatars/842397001954230303/bee2de011c8fa83548f2f8f75703f972.webp?size=1024")
     .setTitle(`**${anime.titles.romaji ? anime.titles.romaji : "Unknown"}**`)
     .setURL(anime.url)
     .setDescription(`**Synopsis:**\n> ${anime.synopsis.replace(/<[^>]*>/g, "").split("\n")[0]}`)
