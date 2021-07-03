@@ -19,7 +19,7 @@ module.exports = {
     
     const info = new Discord.MessageEmbed()
     .setColor("RANDOM")
-    .setAuthor("Kitsu", "https://kitsu.io/favicon-194x194-2f4dbec5ffe82b8f61a3c6d28a77bc6e.png")
+    .setAuthor("Drunkbetch", "https://images-ext-1.discordapp.net/external/c5CBhORoCrjcKjUviyBSUYjatGWz7iiNPnl_HjNDg0E/%3Fsize%3D128/https/cdn.discordapp.com/icons/782646778347388959/a_1dc3d36a0f29ae80c960dc568588c835.gif")
     .setTitle(`**${anime.titles.romaji ? anime.titles.romaji : "Unknown"}**`)
     .setURL(anime.url)
     .setDescription(`**Synopsis:**\n> ${anime.synopsis.replace(/<[^>]*>/g, "").split("\n")[0]}`)
@@ -37,4 +37,5 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL({ format: "png", dynamic: true, size: 64 }));
     return message.channel.send(info);
   })
+}
 }
