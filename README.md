@@ -1,8 +1,2 @@
 From elina bot
-
-# Discord-bot.Js
-Simple discord bot commands using java script 
-
-The following commands are from the Elina bot
-
-The commands will only work if they are in the correct directory and have the correct imports and packages
+This is a open-source discord bot for everyone to use! Dont forget to star and fork ;)
