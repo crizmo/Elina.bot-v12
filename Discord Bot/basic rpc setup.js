@@ -1,3 +1,5 @@
+First setup the rpc on discord bot developer portal 
+
 const RPC = require('discord-rpc');
 const { strict } = require('assert');
 const { warn } = require('console');
