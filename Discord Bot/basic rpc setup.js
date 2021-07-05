@@ -12,9 +12,9 @@ rpc.on("ready", () => {
         details: "",
         state: "",
         startTimestamp: new Date() ,
-        largeImageKey: "large",
+        largeImageKey: "large", #rpc image name on developer portal
         largeImageText: "Elina bot",
-        smallImageKey: "small",
+        smallImageKey: "small", #rpc image name on developer portal
         smallImageText: "DeezNuts",
         buttons : [{label : "BOT NAME" , url : "URL"},{label : "Discord" , url : "SERVER LINK"}]
     })
