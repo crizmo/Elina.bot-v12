@@ -30,3 +30,5 @@ module.exports = {
         message.channel.send(embed)
     }
 }
+
+#embed command can be used for showing commands or codes , after color description can be done using spacing
