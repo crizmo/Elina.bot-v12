@@ -13,7 +13,7 @@ module.exports = {
 
  const hornyembed = new Discord.MessageEmbed()
  .setTitle(`Horny`)
- .setDescription(`${member.username} is ` + rng + "% Horny <:FlushedHeheboi:781261528485068892>")
+ .setDescription(`${member.username} is ` + rng + "% Horny ")
  .setColor("RANDOM")
 
  message.channel.send(hornyembed);
