@@ -18,3 +18,23 @@ module.exports = {
         message.channel.send(newEmbed);
     }
 }
+
+#Put this code in your main.js or index.js
+
+client.on("message", async (message)=>{
+    
+    if(message.author.bot) return
+    const channel = message.guild.channels.cache.find(c=>c.name==='chatbot','┊﹕chatbot')
+    if(message.channel === channel) {
+        fetch.default(`https://api.monkedev.com/fun/chat?msg=${message.content}&uid=${message.author.id}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.response) message.channel.send(data.response).catch(error)
+        }).catch((error)=>{
+            error;
+        })
+        .catch(() => {
+            message.channel.send("Coundn't fetch response!");
+        })
+    }
+})
