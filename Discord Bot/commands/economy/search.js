@@ -4,6 +4,7 @@ module.exports = {
     name: "search",
     aliases: [],
     permissions: [],
+    cooldown: 60,
     description: "Search for some coin!",
     async execute(client, message, args, Discord, profileData, cmd) {
 
@@ -22,7 +23,7 @@ module.exports = {
 
         const collector = message.channel.createMessageCollector(filter, { max: 1, time: 25000 });
 
-        const earnings = Math.floor(Math.random() * (1000 - 100 + 1)) + 100;
+        const earnings = Math.floor(Math.random() * (600 - 100 + 1)) + 100;
 
 
         collector.on('collect', async (m) => {
