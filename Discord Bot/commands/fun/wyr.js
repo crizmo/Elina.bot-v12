@@ -21,7 +21,5 @@ module.exports = {
     wyrmessage.react('2️⃣')
   })
       })
-
   }
-
 }
