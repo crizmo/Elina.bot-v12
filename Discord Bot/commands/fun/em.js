@@ -26,8 +26,6 @@ module.exports = {
                 .setDescription(`${message.author.username} has started a meeting , Discuss who you think is the imposter`)
                 .setImage(emlinks[randomNum])
             message.channel.send(firstEmbed);
-
         }
-        
     }
 }
